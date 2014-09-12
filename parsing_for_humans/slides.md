@@ -144,11 +144,6 @@ For example, if we want to parse the expression `10 + 10` and assuming we have
 the corresponding tokens returned from a lexer, then we can write our Racc
 grammar as following.
 
-## Quick Recap
-
-So a quick recap. We have a lexer, which takes raw input and returns tokens,
-and we have a parser that takes tokens and returns an AST.
-
 ## Oga
 
 Discuss Oga, why I wrote it, etc. Show the lexer/parser.
