@@ -151,9 +151,9 @@ impl Handle for App {
 ```inko
 # A doubly linked list
 type Node[T] {
-  let @value: T             # The value of the node
-  let @next:  Option[T]     # The next node, owned
-  let @prev:  Option[mut T] # A mutable borrow of the previous node
+  let @value: T                   # The value of the node
+  let @next:  Option[Node[T]]     # The next node, owned
+  let @prev:  Option[mut Node[T]] # A mutable borrow of the previous node
 }
 
 let a = Node(value: 10, next: Option.None, prev: Option.None)
