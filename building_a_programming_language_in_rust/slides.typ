@@ -43,10 +43,9 @@
 
 #pagebreak() // ---------------------------------------------------------------
 
-== Sections
+== Agenda
 
 - Context/backstory
-- History
 - Design/implementation
 - Testing
 - Challenges and tips
